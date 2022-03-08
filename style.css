@@ -1,0 +1,108 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;         
+} 
+
+
+.cropped {
+    margin-top: 35px;
+    margin-left: 150px;
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+    overflow: auto;  
+}
+
+
+body {  
+    background: white
+    display: flex;   
+    margin: auto;
+}
+
+header{
+    display:flex; 
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    color: grey;
+    padding: 10px;   
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+.save{
+    display: flex;
+    justify-content: center;       
+}
+
+
+
+.tank {
+    background: red;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 2px black, 5px 4px 8px 5px rgba(81, 129, 201, 0.2);
+    text-align: left;
+}
+
+.usercard{
+    background: navy;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    width: 940px;
+    height: 220px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px black, 5px 4px 8px 5px rgba(81, 129, 201, 0.2);
+    text-align: left;
+}
+
+.usercard h2 { 
+    display:flex; 
+    justify-content: left;
+    font-family: monospace;
+    color: darkgray;
+    padding: 2px;   
+}
+
+
+
+.cropped img {
+    object-fit: cover;
+    text-align: center;
+   width: 150px;
+   height: 200px;
+   
+}
+
+.tank h2 { 
+    display:flex; 
+    justify-content: center;
+    font-family: monospace;
+    color: black;
+    padding: 2px;   
+}
+
+span {
+    display:flex;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13;
+}
+
